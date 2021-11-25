@@ -6,6 +6,7 @@
   :dependencies [[org.clojure/clojure "1.10.3"]
                  [org.clojure/tools.logging "1.1.0"]
                  [org.clojure/data.json "2.4.0"]]
+  :plugins [[venantius/ultra "0.6.0"]]
   :main ^:skip-aot clean-up-pdf.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
