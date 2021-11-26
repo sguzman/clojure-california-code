@@ -1,7 +1,7 @@
-(ns clean-up-pdf.init
+(ns california-code.init
   (:gen-class)
-  (:require [clean-up-pdf.app :as app]
-            [clean-up-pdf.util :as util]))
+  (:require [california-code.app :as app]
+            [california-code.util :as util]))
 
 (defn ^:private init
   "Init stuff"

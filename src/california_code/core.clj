@@ -1,6 +1,6 @@
-(ns clean-up-pdf.core
+(ns california-code.core
   (:gen-class)
-  (:require [clean-up-pdf.init :as init]))
+  (:require [california-code.init :as init]))
 
 (defn -main
   "I don't do a whole lot ... yet."
